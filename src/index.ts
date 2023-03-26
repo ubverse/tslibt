@@ -1,3 +1,3 @@
-export default function hello (): string {
-  return 'hello world'
-}
+import hello from './hello'
+
+console.log(hello())
